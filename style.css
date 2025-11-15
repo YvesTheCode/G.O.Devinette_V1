@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Press+Start+2P&family=VT323&display=swap');
+
+@font-face {
+    font-family:'digital' ;
+    src: url(ds_digital/DS-DIGI.TTF);
+}
+
+*{margin: 0;
+font-family: monospace;
+box-sizing: border-box;
+font-family: "VT323", monospace;}
+
+html{font-size: 1vh;}
+
+body{overflow: hidden;}
+
+main{width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url(Devinette/fond.PNG);}
+
+img{position: absolute;
+height: 100vh;
+pointer-events: none;}
+
+.bureau{width: 100vw;}
+
+.ecran{position: absolute;
+width: 71vh;
+height: 55%;
+margin-right: 39vh;
+background-color: black;
+padding-left:2.5rem;
+padding-right: 2.5rem;
+padding-top:2rem ;}
+
+.ecran p{color: greenyellow;
+font-size: 2.5rem;
+line-height: 2.95rem;
+background-size: cover;
+background-repeat: no-repeat;
+background-position:0 0 ;}
+
+.reveil{position: absolute;
+width: 44vh;
+height: 16%;
+background-color: black;
+bottom: 14vh;
+margin-left: 48vh;
+color: red;}
+
+#repond{appearance: none;
+outline: none;
+border: none;
+width: 37vh;
+height: 55%;
+margin-top: 6.5%;
+margin-left: 10%;
+color: red;
+background-color: black;
+font-size: 10rem;
+transform: skewY(-2deg);
+font-family: 'digital';
+text-transform: lowercase;}
+
+#butt{position: absolute;
+width: 7.45vh;
+height: 7.45vh;
+margin-left: 59.5vh;
+margin-bottom:14vh ;
+border-radius: 100%;
+border: none;
+background-color: rgba(255, 0, 0, 0);
+opacity: 0.5;}
+
+#butt:hover{cursor: pointer;
+background-color: rgba(255, 199, 199, 0.432);}
+
+#pif{color: white;}
